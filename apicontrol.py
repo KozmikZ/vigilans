@@ -39,5 +39,3 @@ def askGpt(prompt: str,model:str): # this returns gpt3s response
             traceback.print_exc()
             tolerance_counter+=1
     return completion.choices[0].message["content"]
-
-askGpt("Hello man, you there?",model="gpt-3.5-turbo-1106")
