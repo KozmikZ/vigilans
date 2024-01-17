@@ -1,5 +1,5 @@
-from apicontrol import askGpt
-from searching import gather_info
+from lib.apicontrol import askGpt
+from lib.searching import gather_info
 GLOBAL_MODEL = "gpt-4-0314"
 
 def data_map_gen(statement:str) -> dict: # Uses gpt to create a search query and then proceeds to gather data into a hash map using the gather_info function

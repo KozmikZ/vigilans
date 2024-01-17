@@ -1,5 +1,5 @@
 import bs4,requests
-from utils import rndhead
+from lib.utils import rndhead
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.service import Service

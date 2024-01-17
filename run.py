@@ -1,4 +1,4 @@
-from prompting import *
+from lib.prompting import *
 
 statements = ["The american people are turning everybody in high schools into homosexuals","Trump actually has connections to many far right parties in Venezuela","Joe Biden has a history of commiting crimes in his youth","Ukrainians are using American controlled birds to spy on Russia"] # strong political statements
 
